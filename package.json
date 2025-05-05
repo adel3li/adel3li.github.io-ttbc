@@ -1,0 +1,27 @@
+{
+  "name": "bookclub-website",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://adel3li.github.io/The-Technical-Book-Club/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "gh-pages -d out",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4"
+  }
+}
